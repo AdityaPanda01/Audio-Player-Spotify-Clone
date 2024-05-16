@@ -1,6 +1,6 @@
 console.log("Starting javascript")
 async function song(){
-    let val=await fetch("https://adityapanda01.github.io/Audio-Player-Spotify-Clone/songs/")
+    let val=await fetch("https://adityapanda01.github.io/Audio-Player-Spotify-Clone/tree/main/songs/")
     let data = await val.text()
    // console.log(data)
 let box=document.createElement("div")
